@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B017168D1D7F33F400967CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B017168C1D7F33F400967CA7 /* AppDelegate.swift */; };
-		B017168F1D7F33F400967CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B017168E1D7F33F400967CA7 /* ViewController.swift */; };
 		B01716921D7F33F400967CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01716901D7F33F400967CA7 /* Main.storyboard */; };
 		B01716941D7F33F400967CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01716931D7F33F400967CA7 /* Assets.xcassets */; };
 		B01716971D7F33F400967CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01716951D7F33F400967CA7 /* LaunchScreen.storyboard */; };
 		B01716A21D7F33F400967CA7 /* PictBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716A11D7F33F400967CA7 /* PictBoardTests.swift */; };
 		B01716AD1D7F33F400967CA7 /* PictBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716AC1D7F33F400967CA7 /* PictBoardUITests.swift */; };
+		B01716BE1D7F354C00967CA7 /* ThreadListViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716BD1D7F354C00967CA7 /* ThreadListViewControllerTableViewController.swift */; };
+		B01716C01D7F382200967CA7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716BF1D7F382200967CA7 /* File.swift */; };
+		B01716C31D7F384E00967CA7 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716C21D7F384E00967CA7 /* Thread.swift */; };
+		B01716C51D7F38A400967CA7 /* ThreadStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716C41D7F38A400967CA7 /* ThreadStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		B01716891D7F33F400967CA7 /* PictBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B017168C1D7F33F400967CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B017168E1D7F33F400967CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B01716911D7F33F400967CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B01716931D7F33F400967CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B01716961D7F33F400967CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		B01716A81D7F33F400967CA7 /* PictBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01716AC1D7F33F400967CA7 /* PictBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictBoardUITests.swift; sourceTree = "<group>"; };
 		B01716AE1D7F33F400967CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01716BD1D7F354C00967CA7 /* ThreadListViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadListViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		B01716BF1D7F382200967CA7 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B01716C21D7F384E00967CA7 /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		B01716C41D7F38A400967CA7 /* ThreadStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,10 @@
 		B017168B1D7F33F400967CA7 /* PictBoard */ = {
 			isa = PBXGroup;
 			children = (
+				B01716BC1D7F341900967CA7 /* ViewController */,
+				B01716BB1D7F341000967CA7 /* View */,
+				B01716BA1D7F340700967CA7 /* Model */,
 				B017168C1D7F33F400967CA7 /* AppDelegate.swift */,
-				B017168E1D7F33F400967CA7 /* ViewController.swift */,
 				B01716901D7F33F400967CA7 /* Main.storyboard */,
 				B01716931D7F33F400967CA7 /* Assets.xcassets */,
 				B01716951D7F33F400967CA7 /* LaunchScreen.storyboard */,
@@ -123,6 +131,31 @@
 				B01716AE1D7F33F400967CA7 /* Info.plist */,
 			);
 			path = PictBoardUITests;
+			sourceTree = "<group>";
+		};
+		B01716BA1D7F340700967CA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B01716BF1D7F382200967CA7 /* File.swift */,
+				B01716C21D7F384E00967CA7 /* Thread.swift */,
+				B01716C41D7F38A400967CA7 /* ThreadStore.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B01716BB1D7F341000967CA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B01716BC1D7F341900967CA7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B01716BD1D7F354C00967CA7 /* ThreadListViewControllerTableViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B017168F1D7F33F400967CA7 /* ViewController.swift in Sources */,
+				B01716BE1D7F354C00967CA7 /* ThreadListViewControllerTableViewController.swift in Sources */,
+				B01716C01D7F382200967CA7 /* File.swift in Sources */,
 				B017168D1D7F33F400967CA7 /* AppDelegate.swift in Sources */,
+				B01716C31D7F384E00967CA7 /* Thread.swift in Sources */,
+				B01716C51D7F38A400967CA7 /* ThreadStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
