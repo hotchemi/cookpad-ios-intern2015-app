@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		736358C44668AABB860345A5 /* Pods_PictBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB8815C37241C85BA512689 /* Pods_PictBoardTests.framework */; };
+		A0996A5E85C8AFBB1E2D963F /* Pods_PictBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77169ABA54D3FC32CAC6AB4 /* Pods_PictBoard.framework */; };
+		AFDFB43152970C43DF3D5AD7 /* Pods_PictBoardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EA6EACBE30DE53E370DBFE /* Pods_PictBoardUITests.framework */; };
 		B017168D1D7F33F400967CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B017168C1D7F33F400967CA7 /* AppDelegate.swift */; };
 		B01716921D7F33F400967CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01716901D7F33F400967CA7 /* Main.storyboard */; };
 		B01716941D7F33F400967CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01716931D7F33F400967CA7 /* Assets.xcassets */; };
@@ -17,6 +20,7 @@
 		B01716C01D7F382200967CA7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716BF1D7F382200967CA7 /* File.swift */; };
 		B01716C31D7F384E00967CA7 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716C21D7F384E00967CA7 /* Thread.swift */; };
 		B01716C51D7F38A400967CA7 /* ThreadStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01716C41D7F38A400967CA7 /* ThreadStore.swift */; };
+		B02827F91DB400DE00D35165 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02827F81DB400DE00D35165 /* ThreadCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46189B98A3D9A333D0B5351A /* Pods-PictBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictBoard/Pods-PictBoard.release.xcconfig"; sourceTree = "<group>"; };
+		65EA6EACBE30DE53E370DBFE /* Pods_PictBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2DEE42088FBA4933BDF5D /* Pods-PictBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictBoardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictBoardTests/Pods-PictBoardTests.release.xcconfig"; sourceTree = "<group>"; };
+		86BBB4277F9641239F893A32 /* Pods-PictBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictBoard/Pods-PictBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		87994857645C580AF722B72D /* Pods-PictBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictBoardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictBoardUITests/Pods-PictBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EB8815C37241C85BA512689 /* Pods_PictBoardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictBoardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2719CFF4E697F87C0B3BF7B /* Pods-PictBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictBoardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictBoardUITests/Pods-PictBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB4C1810DD127B44384A6D8C /* Pods-PictBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictBoardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictBoardTests/Pods-PictBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B01716891D7F33F400967CA7 /* PictBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B017168C1D7F33F400967CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B01716911D7F33F400967CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +65,9 @@
 		B01716BF1D7F382200967CA7 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		B01716C21D7F384E00967CA7 /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		B01716C41D7F38A400967CA7 /* ThreadStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadStore.swift; sourceTree = "<group>"; };
+		B02827F81DB400DE00D35165 /* ThreadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
+		B02827FB1DB403F300D35165 /* PictBoard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PictBoard-Bridging-Header.h"; sourceTree = "<group>"; };
+		D77169ABA54D3FC32CAC6AB4 /* Pods_PictBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0996A5E85C8AFBB1E2D963F /* Pods_PictBoard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736358C44668AABB860345A5 /* Pods_PictBoardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +91,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDFB43152970C43DF3D5AD7 /* Pods_PictBoardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CE34D344FA23A6E10049627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77169ABA54D3FC32CAC6AB4 /* Pods_PictBoard.framework */,
+				8EB8815C37241C85BA512689 /* Pods_PictBoardTests.framework */,
+				65EA6EACBE30DE53E370DBFE /* Pods_PictBoardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B01716801D7F33F400967CA7 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +115,8 @@
 				B01716A01D7F33F400967CA7 /* PictBoardTests */,
 				B01716AB1D7F33F400967CA7 /* PictBoardUITests */,
 				B017168A1D7F33F400967CA7 /* Products */,
+				E96B29D513987A543BD59CD1 /* Pods */,
+				2CE34D344FA23A6E10049627 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +141,7 @@
 				B01716931D7F33F400967CA7 /* Assets.xcassets */,
 				B01716951D7F33F400967CA7 /* LaunchScreen.storyboard */,
 				B01716981D7F33F400967CA7 /* Info.plist */,
+				B02827FB1DB403F300D35165 /* PictBoard-Bridging-Header.h */,
 			);
 			path = PictBoard;
 			sourceTree = "<group>";
@@ -146,6 +177,7 @@
 		B01716BB1D7F341000967CA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B02827F81DB400DE00D35165 /* ThreadCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -158,6 +190,19 @@
 			name = ViewController;
 			sourceTree = "<group>";
 		};
+		E96B29D513987A543BD59CD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86BBB4277F9641239F893A32 /* Pods-PictBoard.debug.xcconfig */,
+				46189B98A3D9A333D0B5351A /* Pods-PictBoard.release.xcconfig */,
+				AB4C1810DD127B44384A6D8C /* Pods-PictBoardTests.debug.xcconfig */,
+				81C2DEE42088FBA4933BDF5D /* Pods-PictBoardTests.release.xcconfig */,
+				A2719CFF4E697F87C0B3BF7B /* Pods-PictBoardUITests.debug.xcconfig */,
+				87994857645C580AF722B72D /* Pods-PictBoardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B01716B11D7F33F400967CA7 /* Build configuration list for PBXNativeTarget "PictBoard" */;
 			buildPhases = (
+				A25546AC331B37CC69515073 /* [CP] Check Pods Manifest.lock */,
 				B01716851D7F33F400967CA7 /* Sources */,
 				B01716861D7F33F400967CA7 /* Frameworks */,
 				B01716871D7F33F400967CA7 /* Resources */,
+				6D89A3B2BC48652EBE4C974C /* [CP] Embed Pods Frameworks */,
+				8B8078A2C632705628AEAFC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B01716B41D7F33F400967CA7 /* Build configuration list for PBXNativeTarget "PictBoardTests" */;
 			buildPhases = (
+				14886438C94AF408565FBF19 /* [CP] Check Pods Manifest.lock */,
 				B01716991D7F33F400967CA7 /* Sources */,
 				B017169A1D7F33F400967CA7 /* Frameworks */,
 				B017169B1D7F33F400967CA7 /* Resources */,
+				60A70DA5D110FCDD7E96A859 /* [CP] Embed Pods Frameworks */,
+				2882CC8FDE4B66F1E97425DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B01716B71D7F33F400967CA7 /* Build configuration list for PBXNativeTarget "PictBoardUITests" */;
 			buildPhases = (
+				207626543BB359F099F00780 /* [CP] Check Pods Manifest.lock */,
 				B01716A41D7F33F400967CA7 /* Sources */,
 				B01716A51D7F33F400967CA7 /* Frameworks */,
 				B01716A61D7F33F400967CA7 /* Resources */,
+				D6DD612B1C83DFD53E2C2A3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,13 +279,16 @@
 				TargetAttributes = {
 					B01716881D7F33F400967CA7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 					B017169C1D7F33F400967CA7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = B01716881D7F33F400967CA7;
 					};
 					B01716A71D7F33F400967CA7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = B01716881D7F33F400967CA7;
 					};
 				};
@@ -284,6 +340,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14886438C94AF408565FBF19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		207626543BB359F099F00780 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2882CC8FDE4B66F1E97425DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictBoardTests/Pods-PictBoardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A70DA5D110FCDD7E96A859 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictBoardTests/Pods-PictBoardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D89A3B2BC48652EBE4C974C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictBoard/Pods-PictBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B8078A2C632705628AEAFC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictBoard/Pods-PictBoard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25546AC331B37CC69515073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6DD612B1C83DFD53E2C2A3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictBoardUITests/Pods-PictBoardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B01716851D7F33F400967CA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -292,6 +471,7 @@
 				B01716BE1D7F354C00967CA7 /* ThreadListViewControllerTableViewController.swift in Sources */,
 				B01716C01D7F382200967CA7 /* File.swift in Sources */,
 				B017168D1D7F33F400967CA7 /* AppDelegate.swift in Sources */,
+				B02827F91DB400DE00D35165 /* ThreadCell.swift in Sources */,
 				B01716C31D7F384E00967CA7 /* Thread.swift in Sources */,
 				B01716C51D7F38A400967CA7 /* ThreadStore.swift in Sources */,
 			);
@@ -435,68 +615,85 @@
 		};
 		B01716B21D7F33F400967CA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BBB4277F9641239F893A32 /* Pods-PictBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PictBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotchemi.ios.PictBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PictBoard/PictBoard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		B01716B31D7F33F400967CA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46189B98A3D9A333D0B5351A /* Pods-PictBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PictBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotchemi.ios.PictBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PictBoard/PictBoard-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		B01716B51D7F33F400967CA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4C1810DD127B44384A6D8C /* Pods-PictBoardTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PictBoardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotchemi.ios.PictBoardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictBoard.app/PictBoard";
 			};
 			name = Debug;
 		};
 		B01716B61D7F33F400967CA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C2DEE42088FBA4933BDF5D /* Pods-PictBoardTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PictBoardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotchemi.ios.PictBoardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictBoard.app/PictBoard";
 			};
 			name = Release;
 		};
 		B01716B81D7F33F400967CA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2719CFF4E697F87C0B3BF7B /* Pods-PictBoardUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PictBoardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotchemi.ios.PictBoardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = PictBoard;
 			};
 			name = Debug;
 		};
 		B01716B91D7F33F400967CA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87994857645C580AF722B72D /* Pods-PictBoardUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PictBoardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotchemi.ios.PictBoardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = PictBoard;
 			};
 			name = Release;
@@ -520,6 +717,7 @@
 				B01716B31D7F33F400967CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B01716B41D7F33F400967CA7 /* Build configuration list for PBXNativeTarget "PictBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +726,7 @@
 				B01716B61D7F33F400967CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B01716B71D7F33F400967CA7 /* Build configuration list for PBXNativeTarget "PictBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +735,7 @@
 				B01716B91D7F33F400967CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

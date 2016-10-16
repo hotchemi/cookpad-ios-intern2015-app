@@ -40,9 +40,11 @@ class ThreadListViewControllerTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("ThreadCell") as! ThreadCell
         let thread = threadStore.threads[indexPath.row]
-        cell.textLabel!.text = thread.title
+        cell.titleLabel.text = thread.title
+        cell.thumbnailImageView.sd_setImageWithURL(thread.imageURL)
+        cell.urlLabel.text = thread.imageURL.absoluteString
         return cell
     }
 }
